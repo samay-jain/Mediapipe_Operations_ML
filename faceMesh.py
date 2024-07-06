@@ -61,6 +61,7 @@ with mp_face_mesh.FaceMesh(
       # If loading a video, use 'break' instead of 'continue'.
       continue
 
+
     # To improve performance, optionally mark the image as not writeable to
     # pass by reference.
     image.flags.writeable = False
