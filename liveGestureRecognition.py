@@ -50,7 +50,6 @@ while cap.isOpened():
         
     cv2.imshow('Gesture Recognition', annotated_image)
 
-
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
